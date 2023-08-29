@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- REMIXICON -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <title>Najwan</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-circle">N</span>
+          <span class="nav__logo-name">Najwan.</span>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
+          <h3 class="nav__name">Juan</h3>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About me</a>
+            </li>
+            <li class="nav__item">
+              <a href="#service" class="nav__link">Service</a>
+            </li>
+            <li class="nav__item">
+              <a href="#project" class="nav__link">Project</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link-button">Contact me</a>
+            </li>
+          </ul>
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__button">
+          <!-- theme button -->
+          <i class="ri-contrast-2-fill change-theme" id="theme-button"></i>
+          <!-- toogle button -->
+          <div class="nav__toogle" id="nav-toogle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- maain -->
+    <main class="main">
+      <section class="homes-section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__name">Najwan Hibatullah.</h1>
+
+          <div class="home__perfil">
+            <div class="home__image">
+              <img
+                src="asset/IMG_20230829_111041_(800_x_1144_pixel).jpg"
+                alt="image"
+                class="home__img"
+              />
+              <div class="home__shadow"></div>
+
+              <img src="asset/curved-arrow.svg" alt="" class="home__arrow" />
+              <img src="asset/random-lines.svg" alt="" class="home__line" />
+
+              <!-- <div class="geometric-box"></div> -->
+            </div>
+
+            <div class="home__social">
+              <a href="https://www.instagram.com/juwannm_/" target="_blank" class="home__social-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+
+              <a href="discordapp.com/users/624567591066796042" target="_blank" class="home__social-link">
+                <i class="ri-discord-line"></i>
+              </a>
+
+              <a href="https://github.com/hack-STACK" target="_blank" class="home__social-link">
+                <i class="ri-github-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__info">
+            <p class="home__description">
+              <b>Graphic Design</b> 
+              ,is my supremacy at
+            </p>
+            <a href="#about" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+
+              <span class="home__scroll-text">Scroll down</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- About -->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <h2 class="section__title1">about me</h2>
+
+        <div class="about__perfil">
+          <div class="about__image">
+            <img
+              src="asset/2juan.jpg"
+              alt=""
+              class="about__img"
+            />
+
+            <div class="about__shadow"></div>
+
+            <div class="geometric-box"></div>
+            <img src="asset/random-lines.svg" alt="" class="about__line" />
+            <div class="about__box"></div>
+          </div>
+        </div>
+        <div class="about__info">
+          <p class="about__description">
+            hello, my name is          
+            <b>Muhammad Najwan Hibatullah</b>
+            I was born in <b>East Kalimantan</b> and on
+            November 9, 2007. I am currently doing
+            my period of migrating from East Kalimantan to
+            looking for new experiences, cheers😈
+          </p>
+          <ul class="about__list">
+            <b>my skilss are : </b>
+            <li class="about__item">
+              graphic design.
+            </li>
+            <li class="about__item">
+              Editor
+            </li>
+            <li class="about__item">
+              Photographer (NEW)
+            </li>
+          </ul>
+          <div class="about__button">
+            <a href="#contact" class="button">
+              <i class="ri-send-plane-line"></i> Contact me
+            </a>
+
+            <a href="https://www.linkedin.com/in/muhammad-najwan-hibatullah-a97879262/" target="_blank" class="button__ghost">
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services -->
+    <section class="service section" id="service">
+      <h2 class="section__title1">
+        <span>Services.</span>
+      </h2>
+      <div class="services__container container grid">
+        <article class="services__card">
+          <div class="services__border"></div>
+          <div class="services__content">
+            <div class="services__icon">
+              <div class="services__box">
+                <i class="ri-layout-4-line"></i>
+              </div>
+            </div>
+            <h2 class="services__title">logo animation</h2>
+            <p class="services__description">
+              Create a good branding logo that impresses,
+              logo results are targeted according to client expectations or beyond expectations
+            </p>
+          </div>
+        </article>
+
+        <article class="services__card">
+          <div class="services__border">nuklir</div>
+          <div class="services__content">
+            <div class="services__icon">
+              <div class="services__box">
+                <i class="ri-pencil-ruler-2-line"></i>
+              </div>
+            </div>
+            <h2 class="services__title">Motion Graphic</h2>
+            <p class="services__description">
+              i can provide u the motion graphic
+              animation in that ur expectations
+            </p>
+          </div>
+        </article>
+
+        <article class="services__card">
+          <div class="services__border"></div>
+
+          <div class="services__content">
+            <div class="services__icon">
+              <div class="services__box">
+                <i class="ri-slideshow-3-line"></i>
+              </div>
+            </div>
+            <h2 class="services__title">Editor.</h2>
+            <p class="services__description">
+              in video editing I use software such as 
+              adobe premiere pro, after effect, 
+              capcut and alight motion as 
+              my main weapon in video editing.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- Project -->
+    <section class="project section" id="project">
+      <h2 class="section__title1">
+        <span>Projects.</span>
+      </h2>
+      <div class="projects__container container grid">
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="asset/comingsoonArtboard 1@4x-100.jpg" alt="" />
+
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=on702WZAZo--QBoj" class="projects__button button">
+              <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Coming soon.</h3>
+            <h2 class="projects__title"></h2>
+            <p class="projects__description">
+              
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/hack-STACK" taget="_blank" class="projects__link">
+              <i class="ri-github-line"></i>
+            </a>
+
+            <a href="" taget="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="/asset/comingsoonArtboard 1@4x-100.jpg" alt="" />
+
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=on702WZAZo--QBoj" class="projects__button button">
+              <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Coming soon.</h3>
+            <h2 class="projects__title">
+
+            </h2>
+            <p class="projects__description">
+
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="https://github.com/hack-STACK" taget="_blank" class="projects__link">
+              <i class="ri-github-line"></i>
+            </a>
+
+            <a href="" taget="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="projects__card">
+          <div class="projects__image">
+            <img src="/asset/comingsoonArtboard 1@4x-100.jpg" alt="" />
+
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=on702WZAZo--QBoj" class="projects__button button">
+              <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+          <div class="projects__content">
+            <h3 class="projects__subtitle">Coming soon.</h3>
+            <h2 class="projects__title"></h2>
+            <p class="projects__description">
+
+            </p>
+          </div>
+          <div class="projects__buttons">
+            <a href="" taget="_blank" class="projects__link">
+              <i class="ri-github-line"></i>
+            </a>
+
+            <a href="" taget="_blank" class="projects__link">
+              <i class="ri-dribbble-line"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- contact me -->
+    <section class="contac session" id="contact">
+      <div class="contact__container grid">
+        <div class="contact__data">
+          <h2 class="section__title2">
+            <span>Contact me.</span>
+          </h2>
+          <p class="contact__description-1">
+            i will read all emails. Send me any message
+            you want and I'll get back to you
+          </p>
+          <p class="contact__description-2">
+            I need Your <b>Name</b> and <b>Email address</b>, but you wont
+            receive anything other than your reply
+          </p>
+        </div>
+        <div class="geometric-box"></div>
+        <div class="contact__mail">
+          <h2 class="contact__title">Send me massage</h2>
+          <form
+            class="contact__form"
+            id="contact-form"
+          >
+            <div class="contact__group">
+              <div class="contact__box">
+                <input
+                  type="text"
+                  name="user_name"
+                  class="contact_input"
+                  id="name"
+                  required
+                  placeholder="First Name"
+                />
+                <label for="name" class="contact__label">First Name</label>
+              </div>
+              <div class="contact__box">
+                <input
+                  type="email"
+                  name="user_email"
+                  class="contact_input"
+                  id="email"
+                  required
+                  placeholder="Email Address"
+                />
+                <label for="email" class="contact__label">Email Address</label>
+              </div>
+            </div>
+            <div class="contact__box">
+              <input
+                type="text"
+                name="user_subject"
+                class="contact_input"
+                id="subject"
+                required
+                placeholder="Subject"
+              />
+              <label for="subject" class="contact__label">Subject</label>
+            </div>
+
+            <div class="contact__box contact__area">
+              <textarea name="user_message" id="message" class="contact_input">message</textarea>
+              <label for="message" class="contact__label">Message</label>
+            </div>
+            <p class="contact__message" id="contact-message"></p>
+            <button type="submit" class="contact__button button">
+              <i class="ri-send-plane-line"></i>Send Message
+            </button>
+          </form>
+        </div>
+
+        <div class="contact__social">
+          <img src="asset/curved-arrow.svg" alt="" class="contact__social-arrow" />
+
+          <div class="contact__social-data">
+            <div class="">
+              <p class="contact__social-description-1">Does not send emails</p>
+              <p class="contact__social-description-2">
+                Write me on my social networks
+              </p>
+            </div>
+
+            <div class="contact__social-links">
+              <a href="https://www.behance.net/najwanhibahtu" target="_blank" class="contact__social-link">
+                <i class="ri-behance-line"></i>
+              </a>
+
+              <a href="https://www.instagram.com/juwannm_/" target="_blank" class="contact__social-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+
+              <a href="discordapp.com/users/624567591066796042" target="_blank" class="contact__social-link">
+                <i class="ri-discord-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#service" class="footer__link">Services</a>
+          </li>
+          <li>
+            <a href="#project" class="footer__link">Projects</a>
+          </li>
+        </ul>
+        <span class="footer__copy">
+          &#169; All rights reserved
+          <a href="">Made with love 💕</a>
+        </span>
+      </div>
+    </footer>
+    <!-- scroll -->
+    <a href="" class="scrollup" id="scroll-up"
+      ><i class="ri-arrow-up-s-line"></i
+    ></a>
+    <!-- scrollreveal -->
+    <script src="scrollreveal.min.js"></script>
+    <!-- email js -->
+
+    <script src="main.js"></script>
+  </body>
+</html>

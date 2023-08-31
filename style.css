@@ -674,13 +674,12 @@ body.dark-theme{
     list-style: none;
     text-decoration: none;
     color: var(--title-color);
+    transition: .5s;
 }
 .list__link:hover{
-    
+    background-color: #504099;
 }
-.dark-theme .list__link{
-    color: var(--white-color);
-}
+
 /* services */
 .services__container{
     grid-template-columns: 250px;

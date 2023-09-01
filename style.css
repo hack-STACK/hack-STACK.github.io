@@ -227,8 +227,11 @@ body.dark-theme{
     place-items: center;
 }
 .nav__logo-circle{
-    border-radius: 50%;
+    transition: .3s;
     cursor: pointer;
+}
+.nav__logo-circle:hover{
+    border-radius: 50%;
 }
 .nav__toogle{
     font-size: 1.25rem;
